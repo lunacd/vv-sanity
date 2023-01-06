@@ -30,4 +30,14 @@ export default {
       media: 'picture',
     },
   },
+  orderings: [
+    {
+      title: 'Display Order',
+      name: 'seasonDesc',
+      by: [
+        {field: 'order', direction: 'asc'},
+        {field: 'name', direction: 'asc'},
+      ],
+    },
+  ],
 }
