@@ -39,11 +39,23 @@ export default {
       season: 'season',
       title: 'title',
       subtitle: 'subtitle',
+      media: 'icon',
     },
-    prepare({title, subtitle, season}: {title: string; subtitle: string; season: number}) {
+    prepare({
+      title,
+      subtitle,
+      season,
+      media,
+    }: {
+      title: string
+      subtitle: string
+      season: number
+      media: string
+    }) {
       return {
         title: `S${season} | ${title}`,
         subtitle: subtitle,
+        media: media,
       }
     },
   },
