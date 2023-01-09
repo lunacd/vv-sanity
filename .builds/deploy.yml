@@ -1,0 +1,18 @@
+image: rockylinux/9
+secrets:
+  - 62336d6a-5d07-4c57-a13c-7c5148f172cf
+triggers:
+  - action: email
+    condition: failure
+    to: Haowen Liu <lhw@lunacd.com>
+tasks:
+  - setup: |
+      sudo dnf install -y nodejs
+      sudo npm i -g corepack
+  - deploy: |
+      cd vv-sanity
+      set +x
+      source ~/.sanity_token
+      set -x
+      yarn
+      yarn sanity deploy
