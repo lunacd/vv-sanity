@@ -20,8 +20,9 @@ export default {
     },
     {
       name: 'icon',
-      title: 'Icon (SVG 1:1)',
+      title: 'Icon',
       type: 'image',
+      description: 'SVG 1:1',
     },
     {
       name: 'startEpisode',

@@ -20,8 +20,9 @@ export default {
     },
     {
       name: 'thumbnail',
-      title: 'Thumbnail (PNG 1778x1000)',
+      title: 'Thumbnail',
       type: 'image',
+      description: 'PNG 1778x1000',
     },
     {
       name: 'youtubeID',

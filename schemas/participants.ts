@@ -10,8 +10,9 @@ export default {
     },
     {
       name: 'picture',
-      title: 'Profile Picture (PNG 256x256)',
+      title: 'Profile Picture',
       type: 'image',
+      description: 'PNG 256x256',
     },
     {
       name: 'bio',

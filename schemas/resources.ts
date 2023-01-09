@@ -10,8 +10,9 @@ export default {
     },
     {
       name: 'cover',
-      title: 'Cover (PNG 600x857)',
+      title: 'Cover',
       type: 'image',
+      description: 'PNG 600x857',
     },
     {
       name: 'link',
