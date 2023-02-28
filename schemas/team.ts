@@ -22,6 +22,7 @@ export default {
     {
       name: 'order',
       title: 'Sort Order',
+      description: 'The last season a team member worked on. For current member, this is the current season.',
       type: 'number',
     },
   ],
